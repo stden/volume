@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: volume - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\user1\LOCALS~1\Temp\RSP3F.bat" with contents
+[
+@echo off
+dir /w
+]
+Creating command line "D:\DOCUME~1\user1\LOCALS~1\Temp\RSP3F.bat"
+Creating temporary file "D:\DOCUME~1\user1\LOCALS~1\Temp\RSP40.tmp" with contents
+[
+opengl32.lib glu32.lib md5.lib /nologo /subsystem:windows /profile /debug /machine:I386 /nodefaultlib:"LIBCD" /out:"../volume.exe" 
+".\Debug\calc_vol.obj"
+".\Debug\GAlloc.obj"
+".\Debug\GLWindow.obj"
+".\Debug\GSettings.obj"
+".\Debug\SLMSocket.obj"
+".\Debug\StdAfx.obj"
+".\Debug\vector.obj"
+".\Debug\volume.obj"
+".\Debug\volumeDlg.obj"
+".\Debug\volume.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\user1\LOCALS~1\Temp\RSP40.tmp"
+
+ Том в устройстве E не имеет метки.
+ Серийный номер тома: BFB8-5AE9
+
+ Содержимое папки E:\stepulenok\Николай - для иностранцев\trunk\volume
+
+[.]               [..]              calc_vol.cpp      calc_vol.h
+[Debug]           GAlloc.cpp        GAlloc.h          gl32.h
+glu32.h           glut32.h          glut32.lib        GLWindow.cpp
+GLWindow.h        GSettings.cpp     GSettings.h       md5.lib
+[md5get]          [md5lib]          [Release]         [res]
+Resource.h        resource.hm       slmlib.h          SLMSocket.cpp
+SLMSocket.h       Socket_MFC.h      Socket_Native.h   StdAfx.cpp
+StdAfx.h          vector.cpp        vector.h          volume.aps
+volume.clw        volume.cpp        volume.dsp        volume.dsw
+volume.h          volume.key        volume.map        volume.ncb
+volume.plg        volume.rc         volumeDlg.cpp     volumeDlg.h
+              37 файлов      1 577 870 байт
+               7 папок  59 528 544 256 байт свободно
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+volume.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
