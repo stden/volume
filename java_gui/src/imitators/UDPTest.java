@@ -22,8 +22,7 @@ import javax.swing.DefaultComboBoxModel;
 import javax.swing.JOptionPane;
 
 /**
- *
- * @author  anatoliy
+ * Тестирование UDP
  */
 public class UDPTest extends javax.swing.JFrame {
     private static int MAX_DATAGRAM_SIZE = 1500;

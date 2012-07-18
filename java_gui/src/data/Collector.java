@@ -11,9 +11,11 @@ import devices.SLM.State;
 /**
  * Collects and store data from SLM and LM
  * 
- * Data stored as four numbers: int distanse -- LM distance * 100 int range --
- * SLM range short signal -- SLM signal strength short angle -- SLM scan angle *
- * 10
+ * Data stored as four numbers: 
+ * int distanse -- LM distance * 100 
+ * int range -- SLM range 
+ * short signal -- SLM signal strength 
+ * short angle -- SLM scan angle * 10
  */
 public class Collector implements Runnable {
 
