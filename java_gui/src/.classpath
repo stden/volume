@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="E:/dudko/SLM_java/commapi/jar/comm.jar"/>
+	<classpathentry kind="lib" path="E:/dudko/SLM_java/jogl-1.1.0-windows-i586/lib/jogl.jar"/>
+	<classpathentry kind="lib" path="E:/dudko/SLM_java/commapi/jar/commtest.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

@@ -1,0 +1,283 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\volume.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\volume.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 166, 54
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CTEXT           "Calculation volume lime",IDC_STATIC,21,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) NiX 2007",IDC_STATIC,46,21,80,8
+    DEFPUSHBUTTON   "OK",IDOK,58,33,50,14,WS_GROUP
+END
+
+IDD_VOLUME_DIALOG DIALOGEX 0, 0, 605, 383
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Volumetric calculation program"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,535,367,50,14
+    LTEXT           "Left:",IDC_STATIC,6,15,27,8
+    LTEXT           "Right:",IDC_STATIC,6,30,20,8
+    LTEXT           "First:",IDC_STATIC,186,15,16,8
+    LTEXT           "Last:",IDC_STATIC,186,30,31,8
+    GROUPBOX        "Sidewalls, m:",IDC_STATIC,2,2,92,43,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+    GROUPBOX        "Lengths-limits, m:",IDC_STATIC,170,2,120,43,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+    GROUPBOX        "Height, m:",IDC_STATIC,95,7,73,32,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+    GROUPBOX        "Scanning Head (SLM), m:",IDC_STATIC,291,88,311,34,
+                    BS_CENTER,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Distance meter (IM), m:",IDC_STATIC,292,2,312,35,
+                    BS_CENTER,WS_EX_DLGMODALFRAME
+    LTEXT           "Distance:",IDC_STATIC,466,20,42,8
+    LTEXT           "Angle:",IDC_STATIC,526,106,22,8
+    GROUPBOX        "Calculated volume, m^3:",IDC_STATIC,1,81,288,41,
+                    BS_CENTER,WS_EX_DLGMODALFRAME
+    LTEXT           "Storehouse:",IDC_STATIC,8,91,39,8
+    LTEXT           "Free space:",IDC_STATIC,167,91,40,8
+    LTEXT           "LIME VOLUME:",IDC_STATIC,231,91,52,8
+    LTEXT           "Number of packet:",IDC_STATIC,302,21,60,8
+    LTEXT           "Missed angle reading:",IDC_STATIC,11,63,70,8
+    GROUPBOX        "Control work:",IDC_STATIC,2,47,288,32,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "Incorrect elementary volume:",IDC_STATIC,168,58,68,18
+    LTEXT           "Elementary volume:",IDC_STATIC,98,91,65,8
+    CTEXT           "",IDC_W0,52,12,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_W1,52,27,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_H,113,19,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_L0,238,12,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_L1,238,27,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_NL,370,17,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_L,514,17,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    LTEXT           "Distance:",IDC_STATIC,430,106,42,8
+    LTEXT           "Number of packet:",IDC_STATIC,300,106,60,8
+    CTEXT           "",IDC_NU,370,103,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_R,472,103,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_U,552,102,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_NLEAVE,96,60,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_NR0,238,60,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_VS,7,101,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_VE,112,101,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_VP,168,101,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_V,238,101,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "",IDC_DIALOG_FRAME,2,125,600,235,0,WS_EX_TRANSPARENT
+    PUSHBUTTON      "Scanning",IDC_SCANNING,16,367,81,14
+    CONTROL         "Enable red dot pointer",IDC_LASERPOINT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,135,370,114,10
+    GROUPBOX        "Battery:",IDC_STATIC,291,46,312,35,BS_CENTER,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "Energy:",IDC_STATIC,471,64,26,8
+    LTEXT           "Number of packet:",IDC_STATIC,301,65,60,8
+    CTEXT           "",IDC_NBATT,369,61,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "",IDC_BATT,513,61,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Enable 3d image rotation",IDC_ROTATION,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,269,369,114,10,0,
+                    HIDC_ROTATION
+    LTEXT           "Numbers:",IDC_STATIC,60,91,34,8
+    CTEXT           "",IDC_NVE,55,101,38,15,SS_CENTERIMAGE | NOT WS_GROUP,
+                    WS_EX_CLIENTEDGE
+    CONTROL         "Enable log to file",IDC_LOGTOFILE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,397,369,68,10,0,
+                    HIDC_LOGTOFILE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "volume MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "volume\0"
+            VALUE "LegalCopyright", "Copyright (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "volume.EXE\0"
+            VALUE "ProductName", "volume Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 47
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About volume..."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\volume.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
